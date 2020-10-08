@@ -117,9 +117,9 @@ class Calculator extends React.Component {
     });
   }
   manSonido=()=>{
-    // let audio = document.getElementById("audio");
-    // audio.volume=0.1;
-    // audio.play();
+    let audio = document.getElementById("audio");
+    audio.volume=0.1;
+    audio.play();
   };  
   almacenarPartida=()=>{ 
     // localStorage.setItem("puntos",this.state.puntos,"record",this.state.tiempoGlobal);
